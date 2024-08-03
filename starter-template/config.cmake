@@ -42,7 +42,7 @@ add_compile_definitions(LOGGING_DEBUG_LOW_VALUE=${LOGGING_DEBUG_LOW_VALUE})
 add_compile_definitions(LOGGING_DEBUG_MEDIUM_VALUE=${LOGGING_DEBUG_MEDIUM_VALUE})
 add_compile_definitions(LOGGING_DEBUG_HIGH_VALUE=${LOGGING_DEBUG_HIGH_VALUE})
 
-message(STATUS "Service-loader configuartion:")
+message(STATUS "Vulkan configuartion:")
 message(STATUS " logging ${LOGGING}")
 message(STATUS " log level ${LOG_LEVEL}")
 
